@@ -1,0 +1,111 @@
+{
+  "setup": "M.V. ABHYAS, 176 m bulk carrier, docking condition: displacement 11604 t, KG 6.293 m, tanks pressed full or empty, arriving trimmed 1.00 m by the stern. Contact at the after perpendicular unless stated. Hydrostatics from her table of offsets (supplied).",
+  "scoring": "number: within tol_pct of the computed value (absolute 0.01 when tol is 0). null: correct only if the answer declines AND names at least one listed missing input. A number given for a null question scores zero.",
+  "questions": [
+    {
+      "id": "D01",
+      "q": "What force do the after blocks carry at the critical instant?",
+      "kind": "number"
+    },
+    {
+      "id": "D02",
+      "q": "With how much water above her keel does the critical instant come?",
+      "kind": "number"
+    },
+    {
+      "id": "D03",
+      "q": "At the first touch, how much water is above her keel?",
+      "kind": "number"
+    },
+    {
+      "id": "D04",
+      "q": "Effective GM at the critical instant, KM taken at that water level?",
+      "kind": "number"
+    },
+    {
+      "id": "D05",
+      "q": "Righting moment per radian at the critical instant?",
+      "kind": "number"
+    },
+    {
+      "id": "D06",
+      "q": "The two textbook methods give different effective GMs at the critical instant. What is the difference between them?",
+      "kind": "number"
+    },
+    {
+      "id": "D07",
+      "q": "What is her KM with 1.00 m of water above her keel?",
+      "kind": "number"
+    },
+    {
+      "id": "D08",
+      "q": "How much of her is on the blocks with 1.00 m of water above her keel?",
+      "kind": "number"
+    },
+    {
+      "id": "D09",
+      "q": "Effective GM with 1.00 m of water, KM taken at that level?",
+      "kind": "number"
+    },
+    {
+      "id": "D10",
+      "q": "Same question, but someone used the KM she ARRIVED with. What (wrong) effective GM do they get?",
+      "kind": "number"
+    },
+    {
+      "id": "D11",
+      "q": "After the critical instant, roughly how many tonnes move onto the blocks for each centimetre the dock falls, at 3.0 m of water?",
+      "kind": "number"
+    },
+    {
+      "id": "D12",
+      "q": "Keeping the 1.00 m trim, how high would KG have to be for her effective GM at the critical instant to reach zero?",
+      "kind": "number"
+    },
+    {
+      "id": "D13",
+      "q": "If she arrived 1.00 m by the HEAD instead, what force would the forward contact carry (contact at the forward perpendicular)?",
+      "kind": "number"
+    },
+    {
+      "id": "D14",
+      "q": "Trimmed 2.00 m by the stern, how much water is pumped between first touch and the critical instant?",
+      "kind": "number"
+    },
+    {
+      "id": "D15",
+      "q": "How high would KG have to be for her righting moment on the blocks (no shores) to run out with 1.00 m of water still in the dock? Compare it with her moulded depth of 14.0 m.",
+      "kind": "number"
+    },
+    {
+      "id": "D16",
+      "q": "At her actual KG, does her righting moment on the blocks run out before the dock is dry?",
+      "kind": "boolean"
+    },
+    {
+      "id": "D17",
+      "q": "Her centreline is a duct keel. What is the narrowest centreline keel block that reaches both duct girders?",
+      "kind": "number"
+    },
+    {
+      "id": "D18",
+      "q": "How far apart are her solid floors in the holds?",
+      "kind": "number"
+    },
+    {
+      "id": "D19",
+      "q": "Another ship of the same size arrives. What is her effective GM at the critical instant? (No stability information supplied.)",
+      "kind": "null"
+    },
+    {
+      "id": "D20",
+      "q": "ABHYAS arrives with her double-bottom tanks \"about half full\". What is her effective GM at the critical instant?",
+      "kind": "null"
+    },
+    {
+      "id": "D21",
+      "q": "Will every keel block bear under strong structure?",
+      "kind": "null"
+    }
+  ]
+}

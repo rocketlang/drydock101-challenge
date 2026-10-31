@@ -1,0 +1,43 @@
+{
+  "name": "M.V. ABHYAS",
+  "note": "ANKR training ship. Synthetic, built to the envelope of a real 32,000 dwt geared bulk carrier; not a copy of any real ship.",
+  "LBP_m": 176,
+  "B_m": 28,
+  "D_m": 14,
+  "summer_draft_m": 9.95,
+  "lightship_t": 7500,
+  "lightship_KG_m": 8.9,
+  "bottom_structure": {
+    "frame_spacing_holds_m": 0.8,
+    "solid_floor_every_n_frames": 3,
+    "duct_keel_girder_offset_from_CL_m": 0.9,
+    "keel_plate_half_width_m": 0.8,
+    "double_bottom_height_m": 1.6
+  },
+  "docking_condition": {
+    "note": "Teaching declaration, not a docking plan: lightship + double-bottom ballast and fuel pressed full + aft peak full, arriving 1.00 m by the stern.",
+    "items": [
+      {
+        "name": "No.1 DB P+S, pressed full",
+        "weight_t": 1220,
+        "kg_m": 0.82
+      },
+      {
+        "name": "No.3 DB P+S, pressed full",
+        "weight_t": 1484,
+        "kg_m": 0.85
+      },
+      {
+        "name": "No.2 FO P+S, pressed full",
+        "weight_t": 860,
+        "kg_m": 1.15
+      },
+      {
+        "name": "Aft peak, pressed full",
+        "weight_t": 540,
+        "kg_m": 5.6
+      }
+    ],
+    "trim_by_stern_m": 1
+  }
+}

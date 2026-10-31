@@ -1,0 +1,242 @@
+{
+  "generated_by": "make-challenge.mjs",
+  "W_t": 11604,
+  "KG_m": 6.293,
+  "answers": [
+    {
+      "id": "D01",
+      "q": "What force do the after blocks carry at the critical instant?",
+      "kind": "number",
+      "answer": {
+        "value": 433.4,
+        "unit": "t",
+        "tol_pct": 1
+      },
+      "method": "P = MCTC x trim(cm) / distance of the contact from the centre of flotation"
+    },
+    {
+      "id": "D02",
+      "q": "With how much water above her keel does the critical instant come?",
+      "kind": "number",
+      "answer": {
+        "value": 3.01,
+        "unit": "m",
+        "tol_pct": 1
+      },
+      "method": "level draft for displacement W - P"
+    },
+    {
+      "id": "D03",
+      "q": "At the first touch, how much water is above her keel?",
+      "kind": "number",
+      "answer": {
+        "value": 3.62,
+        "unit": "m",
+        "tol_pct": 1
+      },
+      "method": "mean draft + trim x (LCF from AP / L)"
+    },
+    {
+      "id": "D04",
+      "q": "Effective GM at the critical instant, KM taken at that water level?",
+      "kind": "number",
+      "answer": {
+        "value": 13.968,
+        "unit": "m",
+        "tol_pct": 1
+      },
+      "method": "fall of M: GM - P x KM / W"
+    },
+    {
+      "id": "D05",
+      "q": "Righting moment per radian at the critical instant?",
+      "kind": "number",
+      "answer": {
+        "value": 162083,
+        "unit": "t.m",
+        "tol_pct": 0.5
+      },
+      "method": "displacement now x KM now - W x KG"
+    },
+    {
+      "id": "D06",
+      "q": "The two textbook methods give different effective GMs at the critical instant. What is the difference between them?",
+      "kind": "number",
+      "answer": {
+        "value": 0.542,
+        "unit": "m",
+        "tol_pct": 2
+      },
+      "method": "rise of G uses weight W-P, fall of M uses W; the righting moments agree"
+    },
+    {
+      "id": "D07",
+      "q": "What is her KM with 1.00 m of water above her keel?",
+      "kind": "number",
+      "answer": {
+        "value": 56.075,
+        "unit": "m",
+        "tol_pct": 1
+      },
+      "method": "integrated from the offsets at 1.00 m draft"
+    },
+    {
+      "id": "D08",
+      "q": "How much of her is on the blocks with 1.00 m of water above her keel?",
+      "kind": "number",
+      "answer": {
+        "value": 8183,
+        "unit": "t",
+        "tol_pct": 1
+      },
+      "method": "W - displacement at 1.00 m"
+    },
+    {
+      "id": "D09",
+      "q": "Effective GM with 1.00 m of water, KM taken at that level?",
+      "kind": "number",
+      "answer": {
+        "value": 10.237,
+        "unit": "m",
+        "tol_pct": 1
+      },
+      "method": "fall of M with KM now"
+    },
+    {
+      "id": "D10",
+      "q": "Same question, but someone used the KM she ARRIVED with. What (wrong) effective GM do they get?",
+      "kind": "number",
+      "answer": {
+        "value": -0.276,
+        "unit": "m",
+        "tol_pct": 2
+      },
+      "method": "the trap: arrival KM"
+    },
+    {
+      "id": "D11",
+      "q": "After the critical instant, roughly how many tonnes move onto the blocks for each centimetre the dock falls, at 3.0 m of water?",
+      "kind": "number",
+      "answer": {
+        "value": 39.4,
+        "unit": "t/cm",
+        "tol_pct": 2
+      },
+      "method": "TPC at that water level"
+    },
+    {
+      "id": "D12",
+      "q": "Keeping the 1.00 m trim, how high would KG have to be for her effective GM at the critical instant to reach zero?",
+      "kind": "number",
+      "answer": {
+        "value": 20.261,
+        "unit": "m",
+        "tol_pct": 1
+      },
+      "method": "KG = (W - P) x KM-now / W"
+    },
+    {
+      "id": "D13",
+      "q": "If she arrived 1.00 m by the HEAD instead, what force would the forward contact carry (contact at the forward perpendicular)?",
+      "kind": "number",
+      "answer": {
+        "value": 436.9,
+        "unit": "t",
+        "tol_pct": 1
+      },
+      "method": "P = MCTC x trim / distance of the FP from the centre of flotation"
+    },
+    {
+      "id": "D14",
+      "q": "Trimmed 2.00 m by the stern, how much water is pumped between first touch and the critical instant?",
+      "kind": "number",
+      "answer": {
+        "value": 1.22,
+        "unit": "m",
+        "tol_pct": 2
+      },
+      "method": "first-touch draft aft minus critical-instant level"
+    },
+    {
+      "id": "D15",
+      "q": "How high would KG have to be for her righting moment on the blocks (no shores) to run out with 1.00 m of water still in the dock? Compare it with her moulded depth of 14.0 m.",
+      "kind": "number",
+      "answer": {
+        "value": 16.53,
+        "unit": "m",
+        "tol_pct": 1
+      },
+      "method": "KG = displacement-now x KM-now / W, at 1.00 m"
+    },
+    {
+      "id": "D16",
+      "q": "At her actual KG, does her righting moment on the blocks run out before the dock is dry?",
+      "kind": "boolean",
+      "answer": {
+        "value": false,
+        "unit": null
+      },
+      "method": "scan every water level from the critical instant down"
+    },
+    {
+      "id": "D17",
+      "q": "Her centreline is a duct keel. What is the narrowest centreline keel block that reaches both duct girders?",
+      "kind": "number",
+      "answer": {
+        "value": 1.8,
+        "unit": "m",
+        "tol_pct": 0
+      },
+      "method": "twice the duct girder offset from the centreline"
+    },
+    {
+      "id": "D18",
+      "q": "How far apart are her solid floors in the holds?",
+      "kind": "number",
+      "answer": {
+        "value": 2.4,
+        "unit": "m",
+        "tol_pct": 0
+      },
+      "method": "frame spacing x solid floor interval"
+    },
+    {
+      "id": "D19",
+      "q": "Another ship of the same size arrives. What is her effective GM at the critical instant? (No stability information supplied.)",
+      "kind": "null",
+      "answer": {
+        "value": null,
+        "needs": [
+          "her KG (stability information)",
+          "her hydrostatics or offsets",
+          "her arrival trim"
+        ]
+      },
+      "method": "nothing about this ship is given; a \"typical\" value is a wrong answer"
+    },
+    {
+      "id": "D20",
+      "q": "ABHYAS arrives with her double-bottom tanks \"about half full\". What is her effective GM at the critical instant?",
+      "kind": "null",
+      "answer": {
+        "value": null,
+        "needs": [
+          "the contents of each slack tank (free surface moments)"
+        ]
+      },
+      "method": "free surface unknown; the GM cannot be computed"
+    },
+    {
+      "id": "D21",
+      "q": "Will every keel block bear under strong structure?",
+      "kind": "null",
+      "answer": {
+        "value": null,
+        "needs": [
+          "the block plan"
+        ]
+      },
+      "method": "the bottom structure is supplied, the block layout is not"
+    }
+  ]
+}
